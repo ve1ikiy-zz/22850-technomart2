@@ -23,3 +23,181 @@ h4 {
   font-weight: 400;
   text-transform: uppercase;
 }
+
+.container-fluid {
+  width: 100%;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  display: table;
+  clear: both;
+  content: '';
+}
+
+.list-default {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+}
+
+.list-default > li {
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.list-default li a {
+  text-decoration: none;
+}
+
+.main-header {
+  background-color: #293449;
+  height: 42px;
+}
+
+.top-navigation {
+  vertical-align: top;
+  font-size: 0;
+  padding: 12px 10px;
+}
+
+.nav-logo {
+  display: inline-block;
+  width: 220px;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.nav-search {
+  display: inline-block;
+  width: 260px;
+  font-size: 17px;
+  line-height: 18px;
+}
+
+.nav-user-items {
+  display: inline-block;
+  vertical-align: top;
+  width: 480px;
+  font-size: 17px;
+  line-height: 18px;
+}
+
+.header-about-info {
+  background-color: #f1f5f7;
+  height: 278px;
+  font-size: 0;
+}
+
+.header-about-info-item {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  width: 320px;
+  height: 153px;
+}
+
+.header-shop-description {
+  color: #ee3643;
+  font-size: 16px;
+  line-height: 23px;
+  font-style: italic;
+  width: 210px;
+  padding: 0;
+  margin: 0;
+}
+
+.main-menu {
+  background-color: #32425c;
+  color: #ffffff;
+  height: 55px;
+  border-bottom: 5px solid #293449;
+}
+
+.list-main-menu {
+
+}
+
+.list-main-menu li {
+  font-size: 17px;
+  line-height: 17px;
+
+}
+
+.main-menu a {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 20px 30px;
+}
+
+.main-menu a:hover {
+  background-color: #293449;
+}
+
+.main-menu a:active {
+  color: #8e939c;
+}
+
+
+.index-promo-slider {
+  float: left;
+  width: 620px;
+  height: 410px;
+  font-size: 0;
+}
+
+.index-promo-slider-item {
+  display: inline-block;
+  vertical-align: top;
+  width: 620px;
+  height: 266px;
+  background-color: #342432;
+  margin-top: 10px;
+}
+
+.index-promo-items {
+  float: right;
+  width: 320px;
+  height: 410px;
+}
+
+.index-promo-item {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  height: 123px;
+  font-size: 14px;
+  outline: 1px dashed black;
+  margin: 10px;
+}
+
+.index-promo-slider .index-promo-item:first-child {
+  margin-left: 0;
+}
+
+.index-promo-slider .index-promo-item:nth-child(2){
+  margin-right: 0;
+}
+
+.index-services {
+  background-color: #f2f6f8;
+  height: 522px;
+}
+
+.footer-info {
+  background-color: #32425c;
+  height: 193px;
+}
+
+.footer-copyrights {
+  height: 107px;
+  background-color: #293449;
+}
